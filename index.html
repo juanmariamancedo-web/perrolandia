@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <title>Perros</title>
+    <title>Perrolandia</title>
 </head>
 <body>
   <header class="sticky-top">
@@ -45,44 +45,9 @@
       </div>
     </main>
     <section class="container my-5">
-      <h2 class="display-5 text-center mb-3">busca a tu perro favorito</h2>
-      <div class="row row-cols-1 row-cols-md-2 g-3 justify-content-around">
-        <div class="col col-md-5">
-          <article class="card">
-            <img src="..." class="card-img-top responsive-img" alt="...">
-            <div class="card-body">
-              <h2 class="card-title">Card title</h2>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </article>
-        </div>
-        <div class="col col-md-5">
-          <article class="card">
-            <img src="..." class="card-img-top responsive-img" alt="...">
-            <div class="card-body">
-              <h2 class="card-title">Card title</h2>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </article>
-        </div>
-        <div class="col col-md-5">
-          <article class="card">
-            <img src="..." class="card-img-top responsive-img" alt="...">
-            <div class="card-body">
-              <h2 class="card-title">Card title</h2>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </article>
-        </div>
-        <div class="col col-md-5">
-          <article class="card">
-            <img src="..." class="card-img-top responsive-img" alt="...">
-            <div class="card-body">
-              <h2 class="card-title">Card title</h2>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </article>
-        </div>
+      <h2 class="display-5 text-center mb-3">Busca a tu perro favorito</h2>
+      <div id="rootCards">
+
       </div>
     </section>
     <footer class="bg-dark text-white p-4">
@@ -118,8 +83,11 @@
           </div>
         </div>
       </div>
-    </footer>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="./src/main-disc.js"></script>
+    <script src="./src/js/main-dist.js"></script>
 </body>
 </html>

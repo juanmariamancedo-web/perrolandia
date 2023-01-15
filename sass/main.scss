@@ -11,7 +11,14 @@
 }
 
 .responsive-img{
-    max-width: 100%;
-    object-fit: cover;
+    height: 300px;
+    object-fit: contain;
     object-position: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
